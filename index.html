@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Youtube</title>
+  </head>
+  <body>
+    <nav class="flexcontainer">
+      <div class="melo">
+        <div class="all">
+          <div class="menu">
+            <img src="/icons/menu.svg" alt="" />
+          </div>
+          <div class="logo">
+            <img id="youtubeimg" src="/images/YT_logo_cropped.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="searchbar">
+        <form class="form">
+          <input type="text" class="searchinput" />
+          <button>
+            <img src="/icons/youtubebutton.png" alt="" class="btnimg" />
+          </button>
+        </form>
+      </div>
+      <div class="appscontainer">
+        <div class="container">
+          <div class="addvideo">
+            <img src="icons/addvideo.svg" alt="" class="videoicon" />
+          </div>
+          <div class="apps">
+            <img src="icons/appicon.svg" alt="" class="appsicon" />
+          </div>
+          <div class="notification">
+            <img src="icons/bell.svg" alt="" class="bell" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="allcontent">
+      <div class="flexcontainer2">
+        <div class="video_content">
+          <iframe
+            width="687"
+            height="386"
+            src="https://www.youtube.com/embed/JJSoEo8JSnc"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h3 class="video-title">Flexbox CSS In 20 Minutes</h3>
+          <div class="likebutton">
+            <!--flexcontainer row-->
+            <h5 class="channelnViews">621,610 views •Dec 8, 2016</h5>
+
+            <img src="icons/like.svg" alt="" />
+            <span>15k</span>
+            <img src="/icons/dislike.svg" alt="" />
+            <span>256</span>
+            <button class="style_button">
+              <img src="icons/share.svg" alt="" />
+              <span>Share</span>
+            </button>
+            <span>Save</span>
+          </div>
+          <hr class="break" />
+          <div class="infopost">
+            <div class="logopost">
+              <div>
+                <img src="images/logo.jpg" alt="" />
+              </div>
+              <div class="info">
+                <span><strong> Traversy Media</strong></span>
+                <div>
+                  <span class="in">921K subscribers</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <button class="style_button">
+                <img id="subscribe" src="images/subscribe.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="description_box">
+            <p>
+              In this quick video we will go over the CSS Flexbox model. This is
+              a quick overview, not an in-depth course. We will look at the
+              basics such as
+            </p>
+
+            <a
+              href="https://www.youtube.com/redirect?v=JJSoEo8JSnc&event=video_description&q=https%3A%2F%2Fjsfiddle.net%2Fbradtraversy%2Fbu0ecodm%2F1%2F&redir_token=_nYdswDZpvSXcwUruJ3sPj9P7qd8MTU3NTA4NTUzNkAxNTc0OTk5MTM2"
+              ><p>Code - https://jsfiddle.net/bradtraversy/bu0...</p></a
+            >
+
+            <ul>
+              <li>display:flex</li>
+              <li>flex</li>
+              <li>order</li>
+              <li>flex-direction</li>
+              <li>justify-content</li>
+              <li>flex-basis</li>
+              <li>align-items</li>
+            </ul>
+          </div>
+        </div>
+        <div class="thumb_content">
+          <aside>
+            <div class="upnext">
+              <div class="autoplay">
+                <h4>Up next</h4>
+                <div class="autoAndButton">
+                  <span>Autoplay</span>
+                  <div class="slidebar" onclick="moveFunction()">
+                    <div class="bar"></div>
+                    <div class="circle" id="circle"></div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="thumbs"
+                href="https://www.youtube.com/watch?v=EFafSYg-PkI"
+              >
+                <img src="/images/videothumbnail.jpg" alt="Css course" />
+
+                <section class="thumbDescriptions">
+                  <h4 class="tSectionHeader">CSS Grid Crash Course</h4>
+
+                  <section class="channelnViews">
+                    <h5>Dev Ed</h5>
+                    <span> 94,542 views</span>
+                  </section>
+                </section>
+              </a>
+              <a
+                class="thumbs"
+                href="https://www.youtube.com/watch?v=EFafSYg-PkI"
+              >
+                <img src="/images/videothumbnail.jpg" alt="Css course" />
+
+                <section class="thumbDescriptions">
+                  <h4 class="tSectionHeader">CSS Grid Crash Course</h4>
+
+                  <section class="channelnViews">
+                    <h5>Dev Ed</h5>
+                    <span> 94,542 views</span>
+                  </section>
+                </section>
+              </a>
+              <a
+                class="thumbs"
+                href="https://www.youtube.com/watch?v=EFafSYg-PkI"
+              >
+                <img src="/images/videothumbnail.jpg" alt="Css course" />
+
+                <section class="thumbDescriptions">
+                  <h4 class="tSectionHeader">CSS Grid Crash Course</h4>
+
+                  <section class="channelnViews">
+                    <h5>Dev Ed</h5>
+                    <span> 94,542 views</span>
+                  </section>
+                </section>
+              </a>
+              <a
+                class="thumbs"
+                href="https://www.youtube.com/watch?v=EFafSYg-PkI"
+              >
+                <img src="/images/videothumbnail.jpg" alt="Css course" />
+
+                <section class="thumbDescriptions">
+                  <h4 class="tSectionHeader">CSS Grid Crash Course</h4>
+
+                  <section class="channelnViews">
+                    <h5>Dev Ed</h5>
+                    <span> 94,542 views</span>
+                  </section>
+                </section>
+              </a>
+              <a
+                class="thumbs"
+                href="https://www.youtube.com/watch?v=EFafSYg-PkI"
+              >
+                <img src="/images/videothumbnail.jpg" alt="Css course" />
+
+                <section class="thumbDescriptions">
+                  <h4 class="tSectionHeader">CSS Grid Crash Course</h4>
+
+                  <section class="channelnViews">
+                    <h5>Dev Ed</h5>
+                    <span> 94,542 views</span>
+                  </section>
+                </section>
+              </a>
+              <a
+                class="thumbs"
+                href="https://www.youtube.com/watch?v=EFafSYg-PkI"
+              >
+                <img src="/images/videothumbnail.jpg" alt="Css course" />
+
+                <section class="thumbDescriptions">
+                  <h4 class="tSectionHeader">CSS Grid Crash Course</h4>
+
+                  <section class="channelnViews">
+                    <h5>Dev Ed</h5>
+                    <span> 94,542 views</span>
+                  </section>
+                </section>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+    <script>
+      var x = document.getElementById("circle");
+      const element = document.querySelector("#circle");
+      var l = getComputedStyle(element).left;
+      function moveFunction() {
+        if (l == "8px") {
+          x.style.webkitAnimation = "right_move 0.5s 1 forwards";
+          x.style.animation = "right_move 0.5s 1 forwards";
+        } else {
+          x.style.webkitAnimation = "left_move 0.5s 1 forwards";
+          x.style.animation = "left_move 0.5s 1 forwards";
+        }
+      }
+
+      x.addEventListener("webkitAnimationEnd", position1);
+
+      function position1() {
+        l = getComputedStyle(element).left;
+      }
+    </script>
+  </body>
+</html>
