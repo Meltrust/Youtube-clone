@@ -1,7 +1,7 @@
 # Youtube-clone
-I built a webpage that matches the appearance of the original Youtube.com video player page.
+I built a webpage that matches the appearance of the original Youtube.com video player page. My first Microverse project.
 
-![screenshot](Project-Screenshot.png)
+![screenshot](Project-screenshot.png)
 
 This project consists of replicating the Youtube.com webpage puting emphasis on embedding images and video.
 
