@@ -21,11 +21,17 @@ This project consists of replicating the Youtube.com webpage puting emphasis on 
 - Clone the project unto your local machine
 - Navigate into `index.html` file and run on the browser
 
+## Future Features:
+
+- Implement responsive design.
+
 ## Authors
 
 👤 **Miguel Tapia**
 
 - Linkedin: [meltrust](https://www.linkedin.com/in/meltrust/)
+- Contact me: original.mtapia@outlook.com
+
 
 ## 🤝 Contributing
 
